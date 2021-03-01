@@ -7,7 +7,7 @@ BASE=$(pwd)
 cd generators || exit
 
 export PCL_REPO_PATH="${BASE}"/pcl-pcl-1.9.1
-export PYTHONPATH="${BASE}"
+export PYTHONPATH="$PYTHONPATH:${BASE}"
 # set to 'all' to generate all point types (slower to compile)
 export POINT_GROUPS="$1"
 
