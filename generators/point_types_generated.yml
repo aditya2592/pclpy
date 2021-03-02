@@ -847,6 +847,7 @@ VoxelGrid:
 - - PointXYZ
   - PointXYZI
   - PointXYZRGBA
+  - PointXYZRGB
   - PointNormal
 VoxelGridCovariance:
 - - PointXYZ
