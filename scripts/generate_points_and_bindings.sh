@@ -13,3 +13,5 @@ export POINT_GROUPS="$1"
 
 ${PYTHON:-python} generate_yaml_point_types.py
 ${PYTHON:-python} generate_pybind11_bindings.py
+
+cd ..
