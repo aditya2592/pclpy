@@ -17,11 +17,11 @@ CONDA = 'conda' in sys.version or os.path.exists(join(sys.prefix, 'conda-meta'))
 
 if platform.system() == "Windows":
     if CONDA:
-        PCL_BASE = join(sys.prefix, "Library", "include", "pcl-1.9", "pcl")
+        PCL_BASE = join(sys.prefix, "Library", "include", "pcl-1.11", "pcl")
     else:
         PCL_BASE = join(os.environ["PCL_ROOT"], "include", "pcl-1.8", "pcl")
 elif CONDA:
-    PCL_BASE = join(sys.prefix, "include", "pcl-1.9", "pcl")
+    PCL_BASE = join(sys.prefix, "include", "pcl-1.11", "pcl")
 else:
     PCL_BASE = join(get_include_dir(), "pcl")
 
