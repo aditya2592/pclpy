@@ -11,7 +11,7 @@ export PYTHONPATH="$PYTHONPATH:${BASE}"
 # set to 'all' to generate all point types (slower to compile)
 export POINT_GROUPS="$1"
 
-${PYTHON:-python} generate_yaml_point_types.py
-${PYTHON:-python} generate_pybind11_bindings.py
+python generate_yaml_point_types.py
+python generate_pybind11_bindings.py
 
 cd ..
