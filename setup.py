@@ -32,7 +32,7 @@ EMAIL = "dcaron05@gmail.com"
 AUTHOR = "David Caron"
 REQUIRES_PYTHON = ">=3.6"
 
-PCL_VERSION = "1.9"
+PCL_VERSION = "1.11"
 PCL_ROOT = os.getenv("PCL_ROOT")
 PYTHON_HOME = os.path.split(sys.executable)[0]
 
